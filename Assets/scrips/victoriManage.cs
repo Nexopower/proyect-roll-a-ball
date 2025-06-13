@@ -6,7 +6,7 @@ public class VictoriaManager : MonoBehaviour
     public void SiguienteNivel()
     {
         int nivelActual = PlayerPrefs.GetInt("NivelActual", 1);
-        SceneManager.LoadScene(nivelActual + 1);
+        SceneManager.LoadScene("Menu");
     }
 
     public void Reintentar()
